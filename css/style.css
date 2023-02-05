@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family= League + Spartan:wght@400;500;700 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+
+    --font-family: 'League Spartan', sans-serif, arial;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    position: relative;
+}
+
+.pattern-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pattern-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container{
+    width: 150rem;
+    height: 75rem;
+    background-color: var(--Soft-Pink);
+}
+
+
+
+
+
+
+
+
+.section-reviews{
+    display: flex;
+}
+
+.section-reviews--description h1{
+    font-size: 7rem;
+    font-weight: 700;
+    color: var(--Very-Dark-Magenta);
+}
+
+.section-reviews--description p{
+    font-weight: 400;
+    color: var(--Very-Dark-Magenta);
+}
